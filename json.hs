@@ -55,7 +55,7 @@ getDate temp x = undefined
 main :: IO ()
 main = do
 
--- Get JSON data and print it
+-- Get JSON data and print it.
 
     temps <- getJson
     putStrLn $ show $ temps

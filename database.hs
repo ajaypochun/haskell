@@ -39,5 +39,6 @@ buildDb = do
 ]}
 
 
+
 dumpTable = rawQuery "select * from Table" [] $$ CL.mapM_ (liftIO . print)
 
